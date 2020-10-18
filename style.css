@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(fundo.jpg);
+    background-position: -500px;
+    background-attachment: fixed;
+}
+
+#calculo, #resultados, form, .conteudo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 400px;
+}
+
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.30);
+    margin-top: 25px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 25px;
+    color: white;
+}
+
+hr {
+    transform: translateY(-15px);
+}
+
+input {
+    margin: 15px 0;
+    text-align: center;
+    outline: 0;
+}
+
+h1:hover, h3:hover {
+    text-shadow: 5px 5px 5px black;
+}
+
+.fas {
+    color: lawngreen;
+}

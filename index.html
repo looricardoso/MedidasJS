@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedidasJS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="conteudo">
+    <div id="tituloPagina">
+        <h1>Cálculo de Medidas <i class="fas fa-ruler"></i></h1>
+        <hr />
+    </div>
+    <div id="calculo">
+        <form>
+            <label for="medida">Entre com a medida (em metros):</label>
+            <input type="text" name="medida" id="medida">
+            <button id="calcular">Calcular</button>
+        </form>
+    </div>
+    <div id="resultados">
+        <h3>--- Resultados ---</h3>
+        <div id="resultadoCentimetros"></div>
+        <div id="resultadoMetros"></div>
+        <div id="resultadoKilometros"></div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
